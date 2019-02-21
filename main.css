@@ -50,7 +50,8 @@
     display: grid;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    grid-row-gap: 0; }
+    grid-row-gap: 0;
+    overflow-x: hidden; }
     * body .header {
       width: 100%;
       max-width: 1067px;
@@ -709,7 +710,7 @@
           @media screen and (max-width: 770px) {
             * body .main .works__carouselItem {
               height: 150px;
-              background: red;
+              background: transparent;
               -webkit-animation: fadeIn 1s 1s forwards ease-in;
               animation: fadeIn 1s 1s forwards ease-in; } }
         * body .main .works .active {
